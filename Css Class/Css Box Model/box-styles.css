@@ -1,0 +1,23 @@
+h1, p{
+    background-color: lightgray;
+    text-align:center;
+}
+em, strong{
+    background-color: lightblue;
+}  
+h1{
+    padding: 50px;
+    border: 1px, solid, blue;
+}
+p{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10%; 
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+strong{
+    margin: 50px;
+}

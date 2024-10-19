@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*@media querries*/
+/* Mobile Styles */
+@media (max-width: 400px) {
+    body {
+        background-color: #F09A9D;
+        /* Red */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #f39a00;
+        /* Yellow */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 961px) {
+    body {
+        background-color: #0075fc;
+        /* Blue */
+    }
+} 

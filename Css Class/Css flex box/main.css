@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+.banner{
+    background-color: rgb(211, 241, 231);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(32, 95, 74);
+    padding: 0 20px;
+}
+.item{
+    height: 200px;
+    width:30%;
+    margin: 10px;
+
+}
+.one{
+    background-color: cadetblue;
+
+}
+.two{
+    background-color: burlywood;
+    order: 1;
+}
+.three{
+    background-color: brown;
+}
+.four{
+    background-color: rgb(156, 126, 3);
+    order: 2;
+}
+.five{
+    background-color: chartreuse;
+}
+.photo-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:flex-end;
+    flex-wrap: wrap;    
+}
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    text-align: center;
+}
+

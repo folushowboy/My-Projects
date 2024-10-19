@@ -1,0 +1,32 @@
+
+body{
+            display: flex;   
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            @media (min-width:400px) amd (max-width:960)
+            
+}
+.guess{
+    background-color: rgb(216, 192, 95);
+    height: 200px;
+    width: 40vh ;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+input[type=text]{
+    height: 50px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+input[type=button]{
+    width: 200px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
