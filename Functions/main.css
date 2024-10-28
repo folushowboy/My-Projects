@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    height: 150px;
+
+}
+button{
+    margin: 10px;
+}

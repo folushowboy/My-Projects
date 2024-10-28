@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+    border:1px solid black; 
+    width: 200px;
+    padding: 10px;
+    font-family: cursive; 
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+label{
+    width: 40px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+input{
+    text-align: right;
+    margin: 5px;
+}
+span{
+    text-align: right;
+    display: inline-block;
+    width: 70px;
+    margin-right: 20px;
+}
